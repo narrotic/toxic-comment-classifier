@@ -1,8 +1,8 @@
 # Toxic Comment Classifier
 
-[![CI](https://github.com/apate476/toxic-comment-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/apate476/toxic-comment-classifier/actions/workflows/ci.yml)
-[![Code quality](https://github.com/apate476/toxic-comment-classifier/actions/workflows/codecheck.yaml/badge.svg)](https://github.com/apate476/toxic-comment-classifier/actions/workflows/codecheck.yaml)
-[![Docker publish](https://github.com/apate476/toxic-comment-classifier/actions/workflows/docker-publish.yaml/badge.svg)](https://github.com/apate476/toxic-comment-classifier/actions/workflows/docker-publish.yaml)
+[![CI](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/ci.yml)
+[![Code quality](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/codecheck.yaml/badge.svg)](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/codecheck.yaml)
+[![Docker build](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/docker.yaml/badge.svg)](https://github.com/narrotic/toxic-comment-classifier/actions/workflows/docker.yaml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 

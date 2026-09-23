@@ -14,6 +14,9 @@ permissions:
 jobs:
   gcp-auth-check:
     runs-on: ubuntu-latest
+    # Skipped on repository copies: the Docker Hub / GCP credentials live in the
+    # upstream team repository, so a copy has nothing to authenticate with.
+    if: github.repository == 'apate476/toxic-comment-classifier'
 
     steps:
       - name: Checkout repository
