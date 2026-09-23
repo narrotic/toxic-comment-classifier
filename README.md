@@ -10,6 +10,17 @@ Multi-label toxicity classification for online comments, built end to end: a rep
 
 A single comment can carry several kinds of toxicity at once, so each comment is scored independently against six labels: `toxic`, `severe_toxic`, `obscene`, `threat`, `insult`, and `identity_hate`.
 
+> **Team project.** Built for SE 800 at DePaul University by Taha Patil, Arya Patel, Bilal Qader, and Asad Khan.
+> This is my copy of the team repository; upstream lives at [apate476/toxic-comment-classifier](https://github.com/apate476/toxic-comment-classifier).
+>
+> **My contributions** (see [commit history](https://github.com/narrotic/toxic-comment-classifier/commits/main?author=narrotic)) were the MLOps and delivery layer:
+>
+> - **Containerization** - multi-stage Dockerfile, bind-mount workflow, Compose orchestration, and a container smoke test (`scripts/docker_smoke.py`)
+> - **CI/CD** - the CML training-report workflow and the Continuous Docker Building workflow, including GHA layer caching and the CPU-only torch wheel that cut image build time
+> - **Experiment tracking** - wiring MLflow into the Hydra entrypoint and the multi-run comparison script (`scripts/run_mlflow_experiments.py`)
+> - **Performance profiling** - cProfile, memory-profiler, and Scalene harnesses with generated reports
+> - **Data versioning** - DVC with a Google Drive remote, plus the raw-data validation and integration tests
+
 **Live API:** <https://toxic-comment-api-491682843765.us-central1.run.app> &nbsp;|&nbsp; **Interactive OpenAPI docs:** [`/docs`](https://toxic-comment-api-491682843765.us-central1.run.app/docs)
 
 ## Try it
